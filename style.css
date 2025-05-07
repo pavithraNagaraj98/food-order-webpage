@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    .young-serif-regular {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+}
+.section-one__title{
+    text-align: center;
+}
+
+
+.section-one__desc{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+      
+}
+.section-one__desc li {
+display: inline-block;
+padding: 10px;
+cursor:pointer ;
+color:gray;
+
+}
+.section-one__desc li:hover{
+    color: white;
+}
+.box{
+    border-color: black;
+    border-width: 2px ;
+    border-style: solid;
+    display: inline-block;
+   
+    width: 220px;
+}
+
+.pro{
+    text-align: center;
+}
+.box__sub{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     margin-top: 10px;
+     margin-bottom:10px;
+     cursor: pointer;
+}
+
+
+  
+.contact{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    margin: 20px;
+
+}
+.contact form {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact table {
+    text-align: left;
+}
+input[type="submit"] {
+    background-color: yellow;
+    color: black;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
